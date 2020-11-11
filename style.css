@@ -88,14 +88,13 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  padding: 20px 0 28px 0;
-  left: 20px;
+  padding: 20px 0 28px 28px;
 }
 
 .content #search-bar {
   z-index: 1;
   width: 582px;
-  height: 48px;
+  height: 44px;
   padding: 0 50px 0;
   border: 1px solid #dfe1e5;
   box-shadow: none;
@@ -149,4 +148,41 @@
   border: 1px solid #c6c6c6;
   color: #222;
   margin: 0 4px;
+}
+
+/* Footer */
+
+.foot {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.foot a {
+  font-size: 14px;
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}
+
+.foot a:visited {
+  color: #5f6368;
+}
+
+.foot #foot-left a {
+  padding-left: 27px;
+}
+
+.foot #foot-right a {
+  padding-right: 27px;
 }
